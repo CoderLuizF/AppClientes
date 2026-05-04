@@ -37,6 +37,30 @@ public class ClientRepository
         Console.ReadKey();
     }
 
+    public void DeleteClient()
+    {
+        Console.Clear();
+        Console.Write("Client's code: ");
+        var code = Console.ReadLine();
+
+        var client = clients.FirstOrDefault(p => p.Id == int.Parse(code));
+
+        if(client == null)
+        {
+            Console.WriteLine("Client not found! [Enter]");
+            Console.ReadKey();
+            return;
+        }
+
+        PrintClient(client);
+
+        clients.Remove(client);
+
+        Console.WriteLine("Client removed! [Enter]");
+        
+        Console.ReadKey();
+    }
+
     public void EditClient()
     {
         Console.Clear();
