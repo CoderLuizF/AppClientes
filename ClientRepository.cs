@@ -37,6 +37,44 @@ public class ClientRepository
         Console.ReadKey();
     }
 
+    public void EditClient()
+    {
+        Console.Clear();
+        Console.Write("Client's code: ");
+        var code = Console.ReadLine();
+
+        var client = clients.FirstOrDefault(p => p.Id == int.Parse(code));
+
+        if(client == null)
+        {
+            Console.WriteLine("Client not found! [Enter]");
+            Console.ReadKey();
+            return;
+        }
+        PrintClient(client);
+        
+        Console.Write("Client's name: ");
+        var name = Console.ReadLine();
+        Console.Write(Environment.NewLine);
+
+        Console.Write("Birth date: ");
+        var birthDate = DateOnly.Parse(Console.ReadLine());
+        Console.Write(Environment.NewLine);
+
+        Console.Write("Discount: ");
+        var discount = decimal.Parse(Console.ReadLine());
+        Console.Write(Environment.NewLine);
+
+        client.Name = name;
+        client.BirthDate = birthDate;
+        client.Discount = discount;
+        client.RegistrationDate = DateTime.Now;
+
+        Console.WriteLine("Client updated! [Enter]");
+        PrintClient(client);
+        Console.ReadKey();
+    }
+
     public void PrintClient(Cliente client)
     {
         Console.WriteLine("ID.............:" + client.Id);
