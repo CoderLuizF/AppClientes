@@ -1,0 +1,14 @@
+C:\dev\AppClientes\bin\Debug\net10.0\AppClientes.exe
+C:\dev\AppClientes\bin\Debug\net10.0\AppClientes.deps.json
+C:\dev\AppClientes\bin\Debug\net10.0\AppClientes.runtimeconfig.json
+C:\dev\AppClientes\bin\Debug\net10.0\AppClientes.dll
+C:\dev\AppClientes\bin\Debug\net10.0\AppClientes.pdb
+C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.AssemblyInfoInputs.cache
+C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.AssemblyInfo.cs
+C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.csproj.CoreCompileInputs.cache
+C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.dll
+C:\dev\AppClientes\obj\Debug\net10.0\refint\AppClientes.dll
+C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.pdb
+C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.genruntimeconfig.cache
+C:\dev\AppClientes\obj\Debug\net10.0\ref\AppClientes.dll
