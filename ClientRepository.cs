@@ -68,7 +68,6 @@ public class ClientRepository
         client.Name = name;
         client.BirthDate = birthDate;
         client.Discount = discount;
-        client.RegistrationDate = DateTime.Now;
 
         Console.WriteLine("Client updated! [Enter]");
         PrintClient(client);
