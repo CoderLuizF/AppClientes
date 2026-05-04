@@ -57,7 +57,7 @@ public class ClientRepository
         clients.Remove(client);
 
         Console.WriteLine("Client removed! [Enter]");
-        
+
         Console.ReadKey();
     }
 
@@ -118,6 +118,25 @@ public class ClientRepository
         }
         
         Console.ReadKey();
+    }
+
+    public void SaveClientData()
+    {
+        var json = System.Text.Json.JsonSerializer.Serialize(clients);
+
+        File.WriteAllText("clients.txt", json);
+    }
+
+    public void ReadClientData()
+    {
+        if (File.Exists("clients.txt"))
+        {
+            var data = File.ReadAllText("clients.txt");
+
+        var clientsData = System.Text.Json.JsonSerializer.Deserialize<List<Cliente>>(data);
+
+        clients.AddRange(clientsData);
+        }
     }
 
 }

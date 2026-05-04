@@ -1,0 +1,1 @@
+[{"Id":1,"Name":"Luiz Felipe","BirthDate":"2003-05-05","RegistrationDate":"2026-05-04T15:05:58.7472464-03:00","Discount":20},{"Id":2,"Name":"C\u00E1ssia Fernanda","BirthDate":"2001-02-05","RegistrationDate":"2026-05-04T15:06:44.0982983-03:00","Discount":50}]

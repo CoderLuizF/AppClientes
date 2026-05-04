@@ -7,6 +7,9 @@ class Program
     static ClientRepository _clientRepository = new ClientRepository();
     static void Main(string[] args)
     {
+
+        _clientRepository.ReadClientData();
+
         while (true)
         {
             Menu();
@@ -63,6 +66,7 @@ class Program
                 }
             case 5:
                 {
+                    _clientRepository.SaveClientData();
                     Environment.Exit(0);
                     break;
                 }
