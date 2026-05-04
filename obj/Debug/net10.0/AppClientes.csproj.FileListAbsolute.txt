@@ -12,3 +12,4 @@ C:\dev\AppClientes\obj\Debug\net10.0\refint\AppClientes.dll
 C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.pdb
 C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.genruntimeconfig.cache
 C:\dev\AppClientes\obj\Debug\net10.0\ref\AppClientes.dll
+C:\dev\AppClientes\obj\Debug\net10.0\AppClientes.sourcelink.json
